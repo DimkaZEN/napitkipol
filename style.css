@@ -1,0 +1,1241 @@
+@font-face {
+    font-family: Nautilus; /* Имя шрифта */
+    src: url(/fonts/Nautilus.otf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.body_product{
+
+    width: auto;
+    height: 2330px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.body_history{
+    width: 1920px;
+    height: 1534px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+
+}
+
+
+.body_beer{
+    position: absolute;
+    width: 1920px;
+    height: 1490px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.body_partner{
+    position: absolute;
+    width: auto;
+    height: 1152px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.body_buy{
+    position: absolute;
+    width: auto;
+    height: 1918px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    display: flex;
+    flex-flow: column wrap;
+}
+.body{
+    width: auto;
+    height: 1534px;
+    background-image: url(/img/Rectangle60.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content_product{
+    position: relative;
+    width: 1366px;
+    height: auto;
+    background-color: white;
+    opacity: 0.9;
+    border: 4px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_beer{
+    width: 1366px;
+    height: 1114px;
+    background-color: white;
+    opacity: 0.9;
+    border: 4px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_buy{
+    width: 1366px;
+    height: 1534px;
+    background-color: white;
+    opacity: 0.9;
+    border: 4px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    width: 1366px;
+    height: 1534px;
+    background-color: white;
+    opacity: 0.9;
+    border: 4px black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social_icon{
+    display: flex;
+    margin-left: 80%;
+    padding: 20px;
+}
+.item_soc{
+    margin: 0 5px;
+}
+.tel_num{
+    display: flex;
+    margin-left: 77%;
+}
+.item_tel{
+    margin: 0 5px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color:black;
+}
+/*--------------------------Меню---------------*/
+.menu{
+    display: flex;
+    width: 1022px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo{
+    margin-top: -40px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+}
+.items_menu{
+    margin-left: 7%;
+    display: flex;
+}
+.item_menu{
+    margin-top: 0px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.item_menu:hover{
+    font-size: 22px;
+
+}
+.item_menu:active{
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.content_basic{
+    display: flex;
+}
+/*--------------------------Конец меню. Начало сайдбара-----------*/
+
+.content_txt{
+    top: 25%;
+    left: 30%;
+    width: 865px;
+    height: 1121px;
+    overflow-y: scroll;
+    position: absolute;
+}
+.about{
+    margin-left: 10%;
+}
+.item_text{
+    display: flex;
+    
+}
+.imanges_txt{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+
+.sidebar{
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 70px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+.sidebar_partner{
+    width: auto;
+    height: auto;
+    left: 336px;
+    margin-top: 140px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+
+.item_sidebar{
+
+    width: 141px;
+    height: 232px;
+    left: 336px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;
+}
+
+.item_sidebar_choose{
+    color: #9B6600;
+}
+
+
+.content_txt{
+    margin-top: 6%;
+    margin-left: 60px;
+    width: 865px;
+    height: 1121px;
+    overflow-y: scroll;
+}
+.about{
+    margin-left: 40%;
+}
+.item_text{
+    display: flex;
+    
+}
+.imanges_txt{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+
+.scaled1{ /*команда стили размещения блоков*/
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 34%;
+    top: 280px;
+  }
+
+.scaled2 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 49.5%;
+    top: 280px;
+}
+
+.scaled3 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 65%;
+    top: 280px;
+}
+
+.scaled4 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 34%;
+    top: 689px;
+}
+
+.scaled5 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 49.5%;
+    top: 689px;
+}
+
+.scaled6 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 65%;
+    top: 689px;
+}
+
+.scaled7 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 34%;
+    top: 1098px;
+}
+
+.scaled8 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 49.5%;
+    top: 1098px;
+}
+
+.scaled9 {
+    position:absolute;
+    width: 180px;
+    height: 280px;
+    left: 65%;
+    top: 1098px;
+}
+
+img.scaled {
+    width: 100%;
+}
+
+/* Наполнение страницы*/
+.about_company{
+    position: absolute;
+    width: 245px;
+    height: 36px;
+    left: 848px;
+    top: 210px;
+
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.about_rewards{
+    position: absolute;
+    width: 245px;
+    height: 36px;
+    margin-left: 35%;
+    top: 210px;
+
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.about_beer{
+    position: absolute;
+    width: 816px;
+    height: 324px;
+    left: 27%;
+    top: 390px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+}
+
+.about_concetrat_up{
+    position: absolute;
+    width: 808px;
+    height: 72px;
+    left: 27%;
+    top: 217px;
+    
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    
+    color: #333333;
+}
+
+.about_ecstract_up{
+    position: absolute;
+    width: 654px;
+    height: 72px;
+    left: 30%;
+    top: 217px;
+    
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    text-align: center;
+}
+
+.about_beer_up{
+    position: absolute;
+    width: 654px;
+    height: 72px;
+    left: 30%;
+    top: 217px;
+    
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height */
+    
+    text-align: center;
+}
+
+.about_history_up{
+    position: absolute;
+    width: 654px;
+    height: 72px;
+    margin-left: 21%;
+    top: 247px;
+    
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+}
+
+
+.about_contacts_up{
+    position: absolute;
+    width: 700px;
+    height: 72px;
+    left: 600px;
+    top: 217px;
+    
+    font-family: Nautilus;
+    font-style: normal;
+    font-weight: 280;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    text-align: center;
+}
+
+.adres{
+    position: absolute;
+    width: 716px;
+    height: 1038px;
+    left: 550px;
+    margin-top: -100px;
+
+}
+
+#adres{
+
+    margin-top: 50px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#adres_up{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.contacts{
+    position: absolute;
+    width: 716px;
+    height: 1038px;
+    left: 550px;
+    margin-top: -90px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.download{
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+
+.file{
+    display: flex;
+    position: absolute;;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+.file_text{
+    font-family: 'Philosopher';
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+    margin-left: 370px;
+    margin-top:  30px;
+
+    color: #333333;
+}
+
+.file1{
+    display: flex;
+    position: absolute;;
+    margin-left: 331px;
+    margin-top: 75px;
+    
+}
+
+.file_text1{
+    position: absolute;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+
+    margin-left: 0%;
+    margin-top:  0%;
+
+    color: #333333;
+}
+
+.concetrat_block{
+    width: 816px;
+    height: 1062px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #333333;
+}
+
+.recepti{
+    position: absolute;
+    width: 414px;
+    height: 72px;
+    margin-left: 16%;
+    top: 1440px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-decoration-line: underline;
+
+    color: #9B6600;
+}
+
+#choose_ypakovki{
+    position: absolute;
+    width: 252px;
+    height: 40px;
+    left: 18%;
+    top: 1591px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #333333;
+}
+
+#bootle1{
+    position: absolute;
+    width: 50px;
+    height: 106px;
+    left: 20%;
+    top: 1669px;
+}
+
+#bootle2{
+    position: absolute;
+    width: 80px;
+    height: 84px;
+    left: 26%;
+    top: 1692px;
+}    
+
+#liter1{
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 21%;
+    top: 1760px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #333333;
+}
+
+#kg1{
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 27.7%;
+    top: 1760px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #333333;
+}
+
+#kg1_e{
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 27%;
+    top: 1770px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #333333;
+}
+
+#liter_beer{
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left:10px;
+    margin-top: 6px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+#liter_beer1{
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left:15px;
+    margin-top: 6px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+#liter_beer2{
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left:85px;
+    margin-top: 6px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+#liter_beer3{
+    position: absolute;
+    width: 222px;
+    height: 22px;
+    left:170px;
+    margin-top: 6px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+#bootle2_exstract{
+    position: absolute;
+    width: 80px;
+    height: 84px;
+    left: 25.5%;
+    top: 1700px;
+    
+}    
+
+#bottle_beer_beer{
+    position: absolute;
+    width: 50px;
+    height: 106px;
+    left: 30%;
+    top: 839px;
+
+}
+
+#bottles_beer_beer{
+    position: absolute;
+    width: 232px;
+    height: 143px;
+    left: 32.5%;
+    top: 803px;
+    
+}
+
+#cup_of_beer{
+    position: absolute;
+    width: 566px;
+    height: 534px;
+    margin-left: 674px;
+    top: 1389px;
+}
+
+#big_bootle_beer{
+    position: absolute;
+    width: 442px;
+    height: 798px;
+    left: 1006px;
+    top: 318px;
+}
+
+
+#cup_beer{
+    position: absolute;
+    width: 301px;
+    height: 443px;
+    left: 917px;
+    top: 618px;
+}
+
+.table{
+    width: 1366px;
+    height: 135px;
+    left: 277px;
+    margin-top: 229px;
+
+    opacity: unset;
+}
+
+.table_beer{
+    width: 1366px;
+    height: 123px;
+    left: 277px;
+    margin-top: 490px;
+}
+
+.table_ecstract{
+
+    width: 1366px;
+    height: 123px;
+    left: 276px;
+    margin-top: 1329px;
+    opacity: unset;
+}
+
+.button_download{
+    position: absolute;
+    width: 255px;
+    height: 66px;
+    left: 70%;
+    top: 680px;
+
+    background: #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    transition: 1s;
+}
+
+.button_download_ecstract{
+    position: absolute;
+    width: 255px;
+    height: 66px;
+    left: 70%;
+    top: 630px;
+
+    background: #333333;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    transition: 1s;
+}
+
+.button_download_ecstract:hover{
+    transform: scale(1.2);
+}
+
+.button_download:hover{
+    transform: scale(1.2);
+}
+
+.button_download_text {
+    width: 210px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: 22px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.about_concetrat{
+    position: absolute;
+    width: 816px;
+    height: 1062px;
+    left: 27%;
+    top: 353px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #333333;
+}
+
+.about_concetrat1{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    
+    color: #333333;
+}
+
+.about_concetrat2{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    
+    color: #333333;
+}
+
+.about_excursion{
+    position: absolute;
+    width: 770px;
+    height: 92px;
+    left: 32.4%;
+    top: 218px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #333333;
+}
+
+#ecxc_text{
+    position: absolute;
+    width: 770px;
+    height: 66px;
+    left: 32%;
+    top: 833px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #333333;
+}
+
+#ecxc_text1{
+    position: absolute;
+    width: 770px;
+    height: 103px;
+    left: 32%;
+    top: 941px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #333333;
+}
+
+#ecxc_text2{
+    position: absolute;
+    width: 384px;
+    height: 274px;
+    left: 40%;
+    top: 1081px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #333333;
+}
+
+
+
+.content_main{
+    position: absolute;
+    width: 820px;
+    height: 1240px;
+    left: 32%;
+    top: 320px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    
+    color: #333333;
+}
+
+#beer{
+    position: absolute;
+    width: 650px;
+    height: 389px;
+    left: 36%;
+    top: 378px;
+    opacity: 100;
+
+}
+
+.block_rewards{
+    width: 480px;
+    height: 200px;
+    padding-bottom: 23px;
+}
+
+.rewards{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+
+    background: #D9D9D9;
+}
+
+.info_rewards_up{
+    width: 280px;
+    height: 36px;
+    margin-left: 250px;
+    top: -10px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.info_rewards{
+    width: 73px;
+    height: 36px;
+    margin-left: 250px;
+    margin-top: 40px;
+    
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+
+/*Фоотер скопирован с главной страницы и подкоректирован*/
+
+.footer{
+    position: relative;
+    background-image: url(/images/footer_background.png);
+    height: 384px;
+    background-position: center center;
+
+}
+
+#footer_info{
+    position: absolute;
+    width: 522px;
+    height: 243px;
+    margin-left: 15%;
+    top: 5%;
+
+    font-family: 'Philosopher';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: white;
+}
+
+#PUP{
+    width: 290px;
+    height: 16px;
+    margin-top: 34px;
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: white;
+}
+
+.footer_left_block{
+    position: relative;
+    margin-left: 40%;
+}
+
+#footer_about_company{
+    position: absolute;
+    width: 140px;
+    height: 178px;
+    margin-left: 7%;
+    margin-top: 3%;
+
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+#footer_about_product{
+    position: absolute;
+    width: 140px;
+    height: 178px;
+    margin-left: 23%;
+    margin-top: 3%;
+
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+#footer_about_news{
+    position: absolute;
+    width: 140px;
+    height: 178px;
+    margin-top: 3%;
+    margin-left: 37%;
+
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+#footer_about_buyers{
+    position: absolute;
+    width: 140px;
+    height: 178px;
+
+    margin-left: 54%;
+    margin-top: 3%;
+
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+#footer_about_partner{
+    position: absolute;
+    width: 140px;
+    height: 178px;
+
+    margin-left: 68%;
+    margin-top: 3%;
+
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+#footer_about_upper{
+    position: absolute;
+    font-family: 'Philosopher';
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    z-index: 10000;
+}
+
+
+
+/*Скопировано с reset.css меняем цвет ссылок*/
+a{
+    color:white;
+    text-decoration: none;
+  }
+  
+#a_black{
+    color:black;
+  }
+  
+#a_yellow{
+    color:#FFDB43;
+
+  }
+
+
+.arrow_l{
+    position: absolute;
+    left: 20%;
+    margin-top: -493px;
+
+}
+
+.arrow_r{
+    position: absolute;
+    left: 80%;
+    margin-top: -505px;
+    
+}

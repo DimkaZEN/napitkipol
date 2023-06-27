@@ -1,0 +1,76 @@
+.footer{
+    width: 1920px;
+    background-image: url(/img/footer_background.svg);
+    height: 384px;
+    display: flex;
+}
+.footer a{
+    color: white;
+}
+#footer_info{
+    width: 522px;
+    height: 243px;
+    margin-top: 10px;
+    margin-left: 17%;
+    font-family: 'Philosopher';
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+}
+#PUP{
+    width: 290px;
+    height: 16px;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+}
+#footer_about_company{
+    width: 113px;
+    height: 178px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+}
+#footer_about_product{
+    width: 108px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+}
+#footer_about_news{
+    width: 157px;
+    height: 114px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+#footer_about_buyers{
+    width: 97px;
+    height: 82px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+}
+#footer_about_partner{
+    width: 120px;
+    height: 148px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 16px;
+    line-height: 18px;
+}
+#a_yellow{
+    color:yellow;
+}

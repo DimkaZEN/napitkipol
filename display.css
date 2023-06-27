@@ -1,0 +1,59 @@
+
+    
+@media screen and (width: 1024px) {
+    main{margin-left: 0px; width: 1024px;}
+    }
+    
+@media (max-width: 1366px) {
+    .social{margin-left:20%;}
+    #call{margin-left:20%;}
+    #pagedown{top:200px; margin-left:3.6%;}
+    #button_text{top:162px; left: 2%;}
+
+    #footer_info{left: -10%; margin-top:-2%}
+    #background_all{display: none;}
+    .head{left: 3%;}
+    .header{left:-200px;}
+    .main-info{margin-left:-200px;}
+    #product_main{margin-left:-200px;}
+    .news{margin-left:-200px;}
+
+    #footer_info{top: 10%; margin-left:12%; padding-right: 10px;}
+    #footer_about_company{margin-left: 1%;}
+    #footer_about_product{margin-left: 17%}
+    #footer_about_news{margin-left: 32%}
+    #footer_about_buyers{margin-left: 48%;}
+    #footer_about_partner{margin-left:64%}
+    footer { width:1352px; height: 350px; background-image: url(/images/background_1366px.png);}
+
+
+
+    #block1{margin-left:5%}
+    #block2{margin-left:10%;margin-top:0%;}
+    #block4{margin-left:5%}
+    #block5{margin-left:10%;margin-top:0%;}
+    #block7{margin-left:5%}
+    #block8{margin-left:10%;margin-top:0%;}
+    #block10{margin-left:5%}
+    #block11{margin-left:10%;margin-top:0%;}
+
+    .body_product{background-size: cover; width: 1366px;}
+
+    .body_beer{background-size: cover; width: 1366px; ;}
+    .about_beer_up{left: 25%;}
+    .about_beer{left: 27%;}
+
+    .body{background-size: cover; width: 1366px;}
+    .about_rewards{margin-left:50%;}
+
+    .about_excursion{left: 25%;}
+    #beer{left: 30%;}
+    #ecxc_text{left: 26%;}
+    #ecxc_text1{left: 26%;}
+    #ecxc_text2{left: 39%;}
+
+    .body_history{width: 1366px;}
+    .about_history_up{left:5%;margin-top: -2%;}
+    .content_txt{top: 30%;left: 20%;}
+}
+
